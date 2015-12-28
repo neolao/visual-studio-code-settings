@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Controls the font family.
+	"editor.fontFamily": "DejaVu Sans Mono",
+
+	// Controls the font size.
+	"editor.fontSize": 18,
+    
+    // Controls visibility of the glyph margin
+	"editor.glyphMargin": true,
+    
+    // Controls whether the editor should render whitespace characters
+	"editor.renderWhitespace": true,
+}
