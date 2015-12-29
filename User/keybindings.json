@@ -13,8 +13,8 @@
     { "key": "cmd+w",               "command": "workbench.files.action.closeFile" },
     { "key": "alt+down",            "command": "workbench.files.action.openNextWorkingFile" },
     { "key": "alt+up",              "command": "workbench.files.action.openPreviousWorkingFile" },
-    { "key": "cmd+left",            "command": "workbench.action.focusSideBar" },
-    { "key": "cmd+right",           "command": "workbench.action.focusFirstEditor" },
+    { "key": "ctrl+left",           "command": "workbench.action.focusSideBar" },
+    { "key": "ctrl+right",          "command": "workbench.action.focusFirstEditor" },
     { "key": "alt+cmd+left",        "command": "workbench.action.focusLeftEditor" },
     { "key": "alt+cmd+right",       "command": "workbench.action.focusRightEditor" },
 ]

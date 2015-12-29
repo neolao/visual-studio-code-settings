@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Configure the update channel to receive updates from. Requires a restart after change.
-    // "stable" or "insiders"
+    // "stable" or "insiders" or "none"
 	"update.channel": "stable",
     
     // Controls the font family.
@@ -17,5 +17,16 @@
 	"editor.renderWhitespace": true,
     
     // Optional. The name or path of the coding standard to use. Defaults to the one set in phpcs global config.
-	"phpcs.standard": "PSR2"
+	"phpcs.standard": "PSR2",
+    
+    //-------- Git Hub Issues --------
+
+	// Your personal access token. See 'https://github.com/settings/tokens'
+	"GitHubIssues.authToken": "59030a92c8700bf3c685dccea822c7050e1c483b",
+    
+    // Display the Issues track icons on the left or right of the status bar
+	"GitHubIssues.statusPos": "left",
+    
+    // Run every n minutes. Minimum is 3 minutes if no authToken supplied.
+	"GitHubIssues.runEvery": 1
 }
