@@ -22,11 +22,16 @@
     //-------- Git Hub Issues --------
 
 	// Your personal access token. See 'https://github.com/settings/tokens'
-	"GitHubIssues.authToken": "59030a92c8700bf3c685dccea822c7050e1c483b",
+	"GitHubIssues.authToken": "",
     
     // Display the Issues track icons on the left or right of the status bar
 	"GitHubIssues.statusPos": "left",
     
     // Run every n minutes. Minimum is 3 minutes if no authToken supplied.
-	"GitHubIssues.runEvery": 1
+	"GitHubIssues.runEvery": 1,
+    
+    //-------- final newline configuration --------
+
+	// Control whether a new line is inserted at the end of the file.
+	"files.insertFinalNewline": true
 }
