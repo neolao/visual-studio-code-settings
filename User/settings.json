@@ -2,19 +2,24 @@
 {
     // Configure the update channel to receive updates from. Requires a restart after change.
     // "stable" or "insiders" or "none"
-	"update.channel": "stable",
+	"update.channel": "insiders",
+    
+    //-------- Editor configuration --------
     
     // Controls the font family.
 	"editor.fontFamily": "DejaVu Sans Mono",
 
 	// Controls the font size.
-	"editor.fontSize": 16,
+	// "editor.fontSize": 16,
     
-    // Controls visibility of the glyph margin
-	"editor.glyphMargin": true,
+    // Enables font ligatures
+	"editor.fontLigatures": true,
     
     // Controls whether the editor should render whitespace characters
 	"editor.renderWhitespace": true,
+    
+    // Controls visibility of the glyph margin
+	"editor.glyphMargin": true,
     
     // Optional. The name or path of the coding standard to use. Defaults to the one set in phpcs global config.
 	"phpcs.standard": "PSR2",
